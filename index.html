@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React + TS</title>
     <script>
-      if (Cypress) {
+      if (typeof Cypress !== 'undefined') {
         window.__indexedDBShim = require('fake-indexeddb/auto');
         window.__IDBTransaction = require('fake-indexeddb/lib/FDBTransaction');
         window.__IDBKeyRange = require('fake-indexeddb/lib/FDBKeyRange');
