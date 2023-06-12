@@ -9,9 +9,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "jest",
-    "predeploy": "tsc && vite build",
-    "deploy": "gh-pages -d dist -r https://github.com/salkizzang/tdd.git"
+    "test": "jest"
   },
   "dependencies": {
     "esbuild": "^0.17.19",
